@@ -13,8 +13,7 @@ quarto add restlessronin/gfm-strip-disallowed
 ```
 
 This will install the extension under the `_extensions` subdirectory.
-If you're using version control, you will want to check in this directory.
-
+Correct installation on an `nbdev` repo requires running this command in the `_proc` sub folder.
 ## Using
 
 Add the following to your front matter.
@@ -29,3 +28,6 @@ format:
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
 
+## `nbdev` example
+
+The extension was initially created for the `README.md` [this nbdev github repository](https://github.com/restlessronin/fastgs). Look at the first cell of `nbs/index.ipynb` (it's a raw cell, so it will not render correctly on the GitHub website).
