@@ -11,7 +11,6 @@ end
 
 function RawBlock(rawEl)
   if rawEl.format == "html" and is_disallowed_block(rawEl.text) then
-    quarto.log.output(rawEl)
     return pandoc.List({})
   else
     return nil
