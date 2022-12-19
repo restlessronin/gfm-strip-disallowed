@@ -26,7 +26,7 @@ format:
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd).
+Here is the source code for a minimal example: [example.qmd](example.qmd). Running `quarto render example.qmd` generates the [example.md](example.md) with stripped tags.
 
 ## `nbdev` example
 
