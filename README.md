@@ -26,8 +26,8 @@ format:
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd). Running `quarto render example.qmd` generates the [example.md](example.md) with stripped tags.
+Here is the source code for a minimal example: [example.qmd](example.qmd). Running `quarto render example.qmd` in the root dir of this repo generates the [example.md](example.md) with stripped tags.
 
 ## `nbdev` example
 
-The extension was initially created for the `README.md` [this nbdev github repository](https://github.com/restlessronin/fastgs). Look at the first cell of `nbs/index.ipynb` (it's a raw cell, so it will not render correctly on the GitHub website).
+The extension was initially created for the `README.md` of [this nbdev github repository](https://github.com/restlessronin/fastgs). Look at the first cell of `nbs/index.ipynb` (it's a raw cell, so it will not render correctly on the GitHub website).
