@@ -22,7 +22,7 @@ Add the following to your front matter.
 format:
   gfm:
     filters:
-      - gfm-strip-disallowed.lua
+      - gfm-strip-disallowed
 ```
 
 ## Example
