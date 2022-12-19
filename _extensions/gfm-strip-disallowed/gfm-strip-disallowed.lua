@@ -9,8 +9,12 @@ function is_disallowed_block(raw_text)
   return disallowed_open:find_if(function(tag) return starts_with(raw_text, tag) end, 1) ~= nil
 end
 
+function ltrim(str)
+  return str:gsub("^%s+", "")
+end
+
 function RawBlock(rawEl)
-  if rawEl.format == "html" and is_disallowed_block(rawEl.text) then
+  if rawEl.format == "html" and is_disallowed_block(ltrim(rawEl.text)) then
     return pandoc.List({})
   else
     return nil
