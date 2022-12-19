@@ -1,3 +1,5 @@
+-- reference for disallowed tags
+-- https://github.github.com/gfm/#disallowed-raw-html-extension-
 disallowed_raw = {"title","textarea","style","xmp","iframe","noembed","noframes","script","plaintext"}
 disallowed_open = pandoc.List(disallowed_raw):map(function(tag) return "<" .. tag .. ">" end)
 
