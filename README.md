@@ -4,7 +4,7 @@ GFM explicitly disallows [certain raw html tags](https://github.github.com/gfm/#
 
 This filter is a quick solution to remove this markup in the cases where the input contains the diallowed tags.
 
-In particular I needed it to for the `index.ipynb` file of my nbdev project, which is converted to the Github `README.txt`.
+In particular I needed it to for the `index.ipynb` file of an `nbdev` project, which is converted to the Github `README.md`.
 
 ## Installing
 
