@@ -13,7 +13,7 @@ quarto add restlessronin/gfm-strip-disallowed
 ```
 
 This will install the extension under the `_extensions` subdirectory.
-Correct installation on an `nbdev` repo requires running this command in the `_proc` sub folder.
+Correct installation on an `nbdev` repo requires running this command in the `nbs` sub folder. The extension should be committed to version control.
 ## Using
 
 Add the following to your front matter.
